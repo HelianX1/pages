@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" width="100%" height="100%">
+  <defs>
+    <linearGradient id="upGradientWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Símbolo / Ícone de Currículo com Seta UP -->
+  <g transform="translate(10, 10)">
+    <!-- Base do documento -->
+    <rect x="0" y="2" width="36" height="46" rx="6" fill="#3B82F6"/>
+    <!-- Linhas representando o currículo -->
+    <line x1="8" y1="12" x2="20" y2="12" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="8" y1="18" x2="28" y2="18" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="24" x2="24" y2="24" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="30" x2="18" y2="30" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Seta Ascendente 'UP' em destaque -->
+    <circle cx="34" cy="12" r="14" fill="url(#upGradientWhite)"/>
+    <path d="M34 6 L39 12 L36 12 L36 18 L32 18 L32 12 L29 12 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Tipografia "CURRÍCULO" -->
+  <text x="64" y="42" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="25" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">
+    CURRÍCULO
+  </text>
+
+  <!-- Badge / Texto "UP" -->
+  <g transform="translate(232, 17)">
+    <rect x="0" y="2" width="46" height="28" rx="7" fill="url(#upGradientWhite)"/>
+    <text x="23" y="21" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">
+      UP
+    </text>
+  </g>
+</svg>

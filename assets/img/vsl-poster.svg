@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0A0F1D"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+    <filter id="shadowPlay" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Fundo com gradiente e profundidade -->
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  <circle cx="640" cy="360" r="450" fill="url(#glowGrad)"/>
+
+  <!-- Linhas de design / grid de alta tecnologia -->
+  <g opacity="0.07" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="180" x2="1280" y2="180"/>
+    <line x1="0" y1="360" x2="1280" y2="360"/>
+    <line x1="0" y1="540" x2="1280" y2="540"/>
+    <line x1="320" y1="0" x2="320" y2="720"/>
+    <line x1="640" y1="0" x2="640" y2="720"/>
+    <line x1="960" y1="0" x2="960" y2="720"/>
+  </g>
+
+  <!-- Tag de Duração no Canto -->
+  <rect x="60" y="50" width="180" height="40" rx="20" fill="rgba(15, 23, 42, 0.75)" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="80" cy="70" r="5" fill="#EF4444"/>
+  <text x="96" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">VSL • 3 MINUTOS</text>
+
+  <!-- Chamada Central do Vídeo -->
+  <text x="640" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">
+    O QUE ESTÁ IMPEDINDO SEU CURRÍCULO DE SER CHAMADO?
+  </text>
+  <text x="640" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="500" fill="#94A3B8" text-anchor="middle">
+    Assista ao vídeo e descubra como funciona a nossa Análise Estratégica Gratuita
+  </text>
+
+  <!-- Botão de Play Gigante -->
+  <g transform="translate(640, 420)" filter="url(#shadowPlay)" cursor="pointer">
+    <!-- Pulso externo -->
+    <circle cx="0" cy="0" r="64" fill="#22C55E" opacity="0.25"/>
+    <circle cx="0" cy="0" r="50" fill="url(#btnGrad)"/>
+    <!-- Ícone Triângulo -->
+    <polygon points="-10,-18 20,0 -10,18" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Badge inferior -->
+  <rect x="440" y="610" width="400" height="46" rx="23" fill="rgba(30, 41, 59, 0.85)" stroke="#475569" stroke-width="1"/>
+  <text x="640" y="639" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#F1F5F9" text-anchor="middle">
+    🔒 100% Gratuito e Sem Compromisso
+  </text>
+</svg>
